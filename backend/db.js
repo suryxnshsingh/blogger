@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 
 
 
-mongoose.connect("mongodb+srv://Suryansh:mongopass@suryansh.htggauc.mongodb.net/", { 
+mongoose.connect("mongodb+srv://<username>:<password>.htggauc.mongodb.net/", { 
     useNewUrlParser: true, 
     useUnifiedTopology: true 
 })
