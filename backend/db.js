@@ -1,7 +1,6 @@
 const mongoose = require("mongoose")
 
 
-
 mongoose.connect("mongodb+srv://<username>:<password>.htggauc.mongodb.net/", { 
     useNewUrlParser: true, 
     useUnifiedTopology: true 
